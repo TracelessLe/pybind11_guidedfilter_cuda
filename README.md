@@ -12,6 +12,7 @@ Use pybind11 to generate a python binding of guided filter with cuda enabled.
 ```
 import cv2
 import gfcuda
+
 img = cv2.imread('cat.png')
 guide = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 final_img = gfcuda.guidedFilter(guide=guide, src=img, radius=5, eps=50*50, dDepth=-1)

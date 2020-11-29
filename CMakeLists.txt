@@ -1,5 +1,5 @@
 ###############################################################################
-# gfcuda - using a guided filter cost volume
+# gfcuda - Using pybind11 to generate a binding that implement guided filter with opencv and cuda.
 #
 # Copyright (C) 2020 TracelessLe
 #
