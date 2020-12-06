@@ -43,11 +43,6 @@ find_package(OpenCV REQUIRED HINTS /usr/local/share/opencv4)
 
 find_package(CUDA 10.2 REQUIRED)
 
-set(Boost_USE_STATIC_LIBS OFF)
-set(Boost_USE_MULTITHREADED ON)
-set(Boost_USE_STATIC_RUNTIME OFF)
-
-
 # Define sources and executable
 set(EXECUTABLE_NAME "gfcuda")
 
