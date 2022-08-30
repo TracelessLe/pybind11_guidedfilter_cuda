@@ -28,3 +28,4 @@ cv2.imwrite('out.png', final_img)
 
 ```
 
+![input](https://github.com/TracelessLe/pybind11_guidedfilter_cuda/raw/master/cat.png) ![output](https://github.com/TracelessLe/pybind11_guidedfilter_cuda/raw/master/out.png)
